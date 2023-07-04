@@ -94,12 +94,8 @@ async function loadBewerberdaten() {
     document.getElementById('akadem_beschreibung').textContent = bewerber.akadem_beschreibung;
 
     // Fähigkeiten
-    const faehigkeitenListe = document.getElementById('faehigkeiten');
-    bewerber.faehigkeiten.forEach(faehigkeit => {
-      const listItem = document.createElement('li');
-      listItem.textContent = faehigkeit;
-      faehigkeitenListe.appendChild(listItem);
-    });
+    document.getElementById('faehigkeiten').textContent = bewerber.faehigkeiten;
+
 
   } catch (err) {
     console.log("Fehler: " + err);
