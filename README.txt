@@ -1,7 +1,7 @@
-Natürlich! Hier ist der überarbeitete Entwurf für die README-Datei:
+README
 
 ```
-# Projektname
+# 451040
 
 ## Installationsanleitung
 
@@ -26,7 +26,7 @@ Diese Anleitung zeigt Schritt für Schritt, wie Sie die erforderlichen Abhängig
 
 - Führen Sie den folgenden Befehl aus, um die erforderlichen Node.js-Abhängigkeiten (Node Modules, Express, SQLite3, Path und Nodemon) für das Projekt zu installieren:
 
-```bash
+```
 $npm install
 $npm install express
 $npm install -D nodemon
@@ -46,5 +46,3 @@ $npm run start
 
 Das war's! Sie haben jetzt die erforderlichen Abhängigkeiten installiert und Ihr Projekt ausgeführt.
 
-```
-```
